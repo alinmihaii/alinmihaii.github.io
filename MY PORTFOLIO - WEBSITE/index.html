@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"></link>
+  <link rel="icon" type="image/png" href="rocket.png">
+</head>
+
+<body>
+  <div class="container"></div>
+  <section id="welcome-section">
+    <h1>Hey, I am Alin</h1>
+    <h2>A web developer</h2>
+  </section>
+
+  <section class="about-me" id="about">
+    <h3>About Me</h3>
+    <img src="p7.jpg" alt="p7" class="p7">
+    <p class="first">Hi, my name is Alin and I am a web developer. I enjoy building websites and applications that are not only visually appealing, 
+      but also functional and user-friendly. I have experience with HTML, CSS, JavaScript and Python. I am always eager to learn 
+      new technologies and programming languages.</p>
+    <p class="second">When I'm not coding, I usually workout, travel, or research my field. 
+      I enjoy attending tech events to connect and network with developers and stay updated on web development trends. I also love car meets 
+      and everything automotive related.</p>
+    <p class="third">I find great joy in exploring different car models, attending car shows, and engaging in conversations with 
+      fellow enthusiasts. The automotive world constantly fascinates me with its advancements in technology and design, which often 
+      inspire my creativity as a web developer.</p>
+    <hr id="hr">
+  </section>
+
+
+  <section class="main-section" id="work">
+    <section id="projects">
+      <p class="projects-text">Here are some of my projects<p>
+      <div class="image-container">
+        <div class="row">
+          <div class="column">
+            <div class="caption5">Event Page</div>
+            <a href="https://github.com/alinmihaii/Event-Page" target="_blank"><img src="p1.jpg" alt="Cars" style="width: 100%;" class="p1"></a>
+          </div>
+          <div class="column">
+            <div class="caption">Tribute Page</div>
+            <a href="https://github.com/alinmihaii/Tribute-Page" target="_blank"><img src="p2.jpg" alt="Tribute" style="width:100%" class="p2"></a>
+          </div>
+          <div class="column">
+            <div class="captionl">Landing Page</div>
+            <a href="https://github.com/alinmihaii/LandingPage" target="_blank"><img src="p3.jpg" alt="Landing" style="width: 100%;" class="p3"></a>
+          </div>
+        </div>
+        <div class="row2">
+          <div class="column column2">
+            <div class="captions">Photography Page</div>
+            <a href="https://github.com/alinmihaii/Photography-Page" target="_blank"><img src="p4.jpg" alt="Photo" style="width:100%" class="p4"></a>
+          </div>
+          <div class="column column2">
+            <div class="captions">Parallax Page</div>
+            <a href="https://github.com/alinmihaii/Parallax-Page" target="_blank"><img src="p5.jpg" alt="Px" style="width:100%" class="p5"></a>
+          </div>
+          <div class="column column2">
+            <div class="captions">E-commerce Page</div>
+            <a href="https://github.com/alinmihaii/Ecommerce-Page" target="_blank"><img src="p6.jpg" alt="fr" style="width:100%" class="p6"></a>
+          </div>
+        </div>
+        <hr id="hr">
+      </div>
+    </section>
+  </section>
+  
+  
+  
+
+  <div id="navbar">
+    <a class="work"  href="#work"  style="text-decoration:none">Projects</a>
+    <a id="profile-link"  href="#about" target="_self"  style="text-decoration:none">About</a>
+    <a id="contact" href="#contactr" target="_self" style="text-decoration:none">Contact</a>
+  </div>    
+  <script src="script.js"></script>
+  <section id="contactr" class="contact-section">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <p class="section-subtitle">Let's get in touch!</p>
+  
+      <div class="contact-form">
+        <form id="contact-form" method="POST" action="https://formspree.io/f/xknlwyvv">
+          <div class="form-group">
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" id="phone" placeholder="Your Phone" name="phone" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" class="btn">Send Message</button>
+          </div>
+          
+        </form>
+      </div>
+    </div>
+  </section>
+  
+</body>
+
+</html>
