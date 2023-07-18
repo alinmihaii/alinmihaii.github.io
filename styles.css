@@ -52,10 +52,10 @@ h3 {
 }
 
 .p7 {
-  border-radius: 60%;
+  border-radius: 50%;
   float: right;
-  width: 10%;
-  height: 30%;
+  width: 50%;
+  height: 50%;
   margin: 20px;
   shape-outside: circle();
   padding: 49px;
